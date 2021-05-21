@@ -1,0 +1,40 @@
+###
+
+GET http://localhost:8080/persona/1
+
+###
+GET http://localhost:8080/persona
+
+###
+POST http://localhost:8080/persona
+Content-Type: application/json
+Accept: application/json
+
+{
+  "first_name": "Maya",
+  "last_name": "Perez",
+  "email": "maya@gamil",
+  "date_of_birth": "2020-05-12",
+  "phone_number": "70834566",
+  "address": "14 de septiembre",
+  "city": "La Paz"
+}
+###
+
+GET http://localhost:8080/pet/2
+
+###
+GET http://localhost:8080/pet
+
+###
+POST http://localhost:8080/pet
+Content-Type: application/json
+Accept: application/json
+
+{
+  "name": "Osita",
+  "sex": "Hembra",
+  "date_of_birthp": "2020-05-12"
+
+}
+

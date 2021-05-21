@@ -1,0 +1,7 @@
+GET http://localhost:8080/usuario/perfil/1
+
+###
+
+GET http://localhost:8080/usuario/pet/1
+
+###
